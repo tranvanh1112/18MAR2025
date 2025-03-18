@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 
 # Dashboard title
 st.title('Anya\'s First Dashboard')
@@ -26,9 +26,9 @@ elif section == 'Data Table':
     
 elif section == 'Bar Chart':
     st.subheader('Bar Chart')
-    fig, ax = plt.subplots()
-    ax.bar(data['Category'], data['Values'])
-    ax.set_xlabel('Category')
-    ax.set_ylabel('Values')
-    st.pyplot(fig)
+#    fig, ax = plt.subplots()
+#    ax.bar(data['Category'], data['Values'])
+#    ax.set_xlabel('Category')
+#    ax.set_ylabel('Values')
+#    st.pyplot(fig)
     
